@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <title>登录</title>
+  <link rel="stylesheet" href="./styles/css/common/base.css">
+  <link rel="stylesheet" href="./styles/css/common/common.css">
+
+  <!-- 业务css -->
+  <link rel="stylesheet" href="./styles/css/login.css">
+</head>
+
+<body class="bc-fff">
+  <div class="logo-img">
+    <img src="./images/business/logo.png" alt="">
+  </div>
+
+  <div class="login">
+    <div class="user-name flex jc-sb ai-c mt-15 pb-5">
+      <input id="phone" type="number" placeholder="手机号" autofocus />
+      <span class="fs-13 get-phone-code">获取验证码</span>
+    </div>
+    <div class="password mt-20 mb-20 pb-5">
+      <input type="text" placeholder="验证码" class="code" />
+    </div>
+    <input type="submit" class="mt-15 fs-18 submit" value="登录">
+  </div>
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+
+</html>

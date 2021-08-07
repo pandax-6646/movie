@@ -1,0 +1,112 @@
+body::-webkit-scrollbar {
+  width: 0;
+}
+.nav-middle-bar,
+.nav-top {
+  height: 50px;
+  border-bottom: 1px solid #f5f5f5;
+  border: 1px solid #f5f5f5;
+}
+.nav-middle-bar div i::before,
+.nav-top div i::before {
+  font-size: 12px;
+  margin-top: 3px;
+  margin-left: -5px;
+}
+.nav-middle-bar > i,
+.nav-top > i {
+  font-size: 25px;
+}
+.nav-top {
+  top: 0px;
+}
+.nav-middle-bar {
+  top: 50px;
+}
+.container {
+  margin-top: 105px;
+  margin-bottom: 60px;
+}
+.container li {
+  height: 70px;
+  padding: 15px;
+  border-bottom: 1px solid #f5f5f5;
+  box-sizing: border-box;
+}
+.container li div {
+  height: 100%;
+}
+.container li div:last-child p:first-child {
+  text-align: center;
+  color: #ff5100;
+}
+.container li div:last-child p:last-child {
+  margin-top: 13px;
+  text-align: center;
+}
+.container li div p:last-child {
+  max-width: 240px;
+  color: #787d82;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.container li .place-name {
+  max-width: 260px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.change-city {
+  display: none;
+  height: 110px;
+  top: 102px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+.change-city .change-city-container {
+  height: 100%;
+}
+.change-city .change-city-container span {
+  font-size: 12px;
+  height: 25px;
+  width: 60px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0 5px;
+  border: 1px solid transparent;
+}
+.change-city .change-city-container .active {
+  border-color: #ff5f16;
+  color: #ff5f16;
+}
+.mask {
+  display: none;
+  height: 500px;
+  top: 212px;
+  background-color: rgba(94, 94, 94, 0.7);
+  z-index: 999;
+}
+.nav-bottom-bar {
+  height: 50px;
+  bottom: 0px;
+}
+.nav-bottom-bar div {
+  flex-wrap: wrap;
+  height: 100%;
+  width: 40px;
+  font-size: 14px;
+}
+.nav-bottom-bar div i {
+  margin-top: 5px;
+}
+.nav-bottom-bar div a {
+  height: 100%;
+  width: 100%;
+}
+.nav-bottom-bar div:nth-of-type(2) a {
+  color: #ff4800;
+}

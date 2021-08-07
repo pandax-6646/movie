@@ -1,0 +1,73 @@
+.container {
+  margin-bottom: 60px;
+}
+.container li > div {
+  height: 115px;
+  padding: 15px 10px 10px 15px;
+  box-sizing: border-box;
+}
+.container li > div p:nth-of-type(2) {
+  color: #777c82;
+}
+.container li > div > div {
+  height: 35px;
+}
+.container li > div > div div:first-child span:first-child {
+  color: #e20b1b;
+}
+.container li > div > div div:first-child span:last-child {
+  color: #777c82;
+  text-decoration: line-through;
+}
+.container li > div > div div:last-child {
+  width: 160px;
+}
+.container li > div > div div:last-child i {
+  position: relative;
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: url("../../images/business/preferential-user-img-1.jpg") no-repeat;
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+.container li > div > div div:last-child i::after {
+  position: absolute;
+  content: '';
+  height: 30px;
+  width: 30px;
+  left: 60%;
+  background: url("../../images/business/preferential-user-img-2.jpg") no-repeat;
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+.container li > div > div div:last-child span:last-child {
+  display: block;
+  height: 35px;
+  width: 90px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #d51e1f;
+}
+.nav-bottom-bar {
+  height: 50px;
+  bottom: 0px;
+}
+.nav-bottom-bar div {
+  flex-wrap: wrap;
+  height: 100%;
+  width: 40px;
+  font-size: 14px;
+}
+.nav-bottom-bar div i {
+  margin-top: 5px;
+}
+.nav-bottom-bar div a {
+  height: 100%;
+  width: 100%;
+}
+.nav-bottom-bar div:nth-of-type(3) a {
+  color: #ff4800;
+}

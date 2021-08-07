@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <title>电影列表</title>
+  <link rel="stylesheet" href="./styles/css/common/base.css">
+  <link rel="stylesheet" href="./styles/css/common/common.css">
+
+  <!-- 轮播 -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+  <!-- 引入icon图标 -->
+  <link rel="stylesheet" href="./styles/font/iconfont.css">
+
+  <!-- 业务css -->
+  <link rel="stylesheet" href="./styles/css/index.css">
+</head>
+
+<body>
+  <header class="header wp-100">
+
+    <div class="swiper-container wp-100">
+      <div class="swiper-wrapper swiper wp-100"></div>
+
+      <!-- 如果需要分页器 -->
+      <div class="swiper-pagination"></div>
+
+      <div class="city fc-fff flex jc-c ai-c">
+        <span class="fs-14">城市</span>
+        <i class="iconfont icon-icon1"></i>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="container wp-100">
+    <ul class="bc-fff"></ul>
+    <p class="fs-14 get-pull-data"></p>
+  </div>
+
+
+  <div class="nav-bottom-bar wp-100 flex jc-sa ai-c bc-fff fixed">
+    <div>
+      <a href="./index.html" class="flex ac-sa jc-c fw-r">
+        <i class="iconfont icon-dianying"></i>
+        <span>电影</span>
+      </a>
+    </div>
+    <div>
+      <a href="./cinema.html" class="flex ac-sa jc-c fw-r">
+        <i class="iconfont icon-yingyuana"></i>
+        <span>影院</span>
+      </a>
+    </div>
+    <div>
+      <a href="./preferential.html" class="flex ac-sa jc-c fw-r">
+        <i class="iconfont icon-pintuandingdan"></i>
+        <span>特惠</span>
+      </a>
+    </div>
+    <div>
+      <a href="./my.html" class="flex ac-sa jc-c fw-r">
+        <i class="iconfont icon-wode"></i>
+        <span>我的</span>
+      </a>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
